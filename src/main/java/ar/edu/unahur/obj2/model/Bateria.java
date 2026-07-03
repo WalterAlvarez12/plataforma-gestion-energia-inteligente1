@@ -33,7 +33,7 @@ public class Bateria {
     }
 
     // sube la energia, creo
-    public void cargar(Double kwh) {
+    public void cargar(double kwh) {
         nivelEnergia += kwh;
         notificarObservadores(TipoOperacion.carga, kwh);
     }
