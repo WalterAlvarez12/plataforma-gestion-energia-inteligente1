@@ -9,6 +9,9 @@ import ar.edu.unahur.obj2.observador.ObservadorEnergia;
 
 public class ObservadorEspia implements ObservadorEnergia {
 
+
+    // QUISE HACER UN OBSERVADOR ESPIA PARA Q NO TIFIQUE, PERO NO LLEGO ES LA ULTIMAAAAAAAAAAAAAAAAAAAAA, ME TENGO QUE IR, NOSE SI LO HICE BIEN
+    // PORQUE ME DEJO E ANDAR ESTO
     public static class Notificacion {
         public final String bateriaId;
         public final TipoOperacion tipo;
