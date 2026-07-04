@@ -39,7 +39,7 @@ public class Bateria {
     }
 
     // reduce el nivel de energia
-    public void consumir(Double kwh) throws LimiteReservaExcedidoException {
+    public void consumir(double kwh) throws LimiteReservaExcedidoException {
         Double nuevoNivel = nivelEnergia - kwh;
         if(nuevoNivel < LimiteDeLaReserva) {
             throw new LimiteReservaExcedidoException(this, kwh, nuevoNivel);

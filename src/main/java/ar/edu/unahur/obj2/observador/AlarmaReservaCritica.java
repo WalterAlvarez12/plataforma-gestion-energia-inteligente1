@@ -19,4 +19,9 @@ public class AlarmaReservaCritica implements ObservadorEnergia {
     public void actualizar(Bateria bateria, TipoOperacion tipo, Double kwh) {
         throw new UnsupportedOperationException("Unimplemented method 'actualizar'");
     }
+
+    @Override
+    public void actualizar1(Bateria bateria, TipoOperacion tipo, double kwh) {
+        throw new UnsupportedOperationException("Unimplemented method 'actualizar1'");
+    }
 }

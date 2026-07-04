@@ -10,4 +10,6 @@ public interface ObservadorEnergia {
     void actualizar(Bateria bateria, TipoOperacion tipo, Double kwh);
 
     void actualizar(Bateria bateria, TipoOperacion tipo, double kwh);
+
+    void actualizar1(Bateria bateria, TipoOperacion tipo, double kwh);
 }
